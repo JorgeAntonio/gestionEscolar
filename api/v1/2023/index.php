@@ -1,6 +1,19 @@
 <?php
 // index.php
 
+// Agregar encabezados para permitir CORS
+header("Access-Control-Allow-Origin: *"); // Permitir todas las solicitudes de cualquier origen
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS"); // Permitir estos métodos HTTP
+header("Access-Control-Allow-Headers: Content-Type, Authorization"); // Permitir estos encabezados
+header("Access-Control-Allow-Credentials: true"); // Permitir credenciales (cookies, autorizaciones)
+
+// Manejo de pre-flight requests
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    // Envío de una respuesta de éxito sin cuerpo
+    http_response_code(204); // No Content
+    exit();
+}
+
 // Controlador para la API REST
 // Este controlador se encargará de manejar las solicitudes HTTP y dirigirlas a las funciones correspondientes
 

@@ -3,7 +3,7 @@
 //echo "get_alumnos_id.php";
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 // Asegurarse de que el idUsuario esté establecido y no esté vacío
 if (!isset($_GET['idUsuario']) || empty($_GET['idUsuario'])) {
