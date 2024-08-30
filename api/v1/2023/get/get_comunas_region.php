@@ -4,7 +4,7 @@
 
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 // Asegurarse de que el idRegion esté establecido y no esté vacío
 if (!isset($_GET['idRegion']) || empty($_GET['idRegion'])) {

@@ -3,7 +3,7 @@
 //echo "get_salud_id.php";
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 // Asegurarse de que el idAlumno esté establecido y no esté vacío
 if (!isset($_GET['idAlumno']) || empty($_GET['idAlumno'])) {

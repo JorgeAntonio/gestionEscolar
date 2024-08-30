@@ -3,7 +3,7 @@
 //echo "post_documentoCompartido.php"; 
 
 // Incluye la conexión a la base de datos
-include 'conexion.php';
+include './conexion.php';
 
 // Recibe el payload JSON del body
 $data = json_decode(file_get_contents("php://input"), true);

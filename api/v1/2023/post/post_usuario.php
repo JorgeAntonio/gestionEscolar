@@ -2,7 +2,7 @@
 
 //echo "post_usuario.php";
 
-include 'conexion.php';
+include './conexion.php';
 
 // Obtener el payload JSON del body
 $data = json_decode(file_get_contents("php://input"), true);

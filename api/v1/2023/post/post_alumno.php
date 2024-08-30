@@ -3,7 +3,7 @@
 //echo "post_alumno.php";
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 // Obtener el payload JSON del body
 $data = json_decode(file_get_contents("php://input"), true);

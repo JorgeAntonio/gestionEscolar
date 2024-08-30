@@ -3,7 +3,7 @@
 //echo "get_cursos_todos.php";
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 try {
     // Consulta SQL para obtener todos los cursos

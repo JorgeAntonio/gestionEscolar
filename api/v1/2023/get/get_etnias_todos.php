@@ -3,7 +3,7 @@
 //echo "get_etnias_todos.php";
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 try {
     // Consulta SQL para obtener todas las etnias

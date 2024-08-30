@@ -1,7 +1,7 @@
 <?php
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 // Asegurarse de que el id esté establecido y no esté vacío
 if (!isset($_GET['id']) || empty($_GET['id'])) {

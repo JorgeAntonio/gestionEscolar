@@ -3,7 +3,7 @@
 //echo "get_rolesUsuario_todas.php";
 
 // Incluye tu conexión existente
-include 'conexion.php';
+include './conexion.php';
 
 try {
     // Consulta SQL para obtener todos los roles de usuario
